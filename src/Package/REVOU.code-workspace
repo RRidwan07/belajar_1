@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../REVOU"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "REVOU"
+	}
+}
