@@ -2,6 +2,7 @@ import {AiOutlineMenu, AiOutlineClose} from "react-icons/ai"
 import React,{useState} from 'react'
 import "animate.css"
 
+
 export const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
@@ -12,9 +13,9 @@ export const Navbar = () => {
                         <h1 className="text-4xl font-bold tablet:font-black">TKJ 3</h1>
                         <div className="flex items-center absolute right-6">
                         <ul className="hidden tablet:flex gap-3 tablet:font-bold">
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Contack</li>
+                            <li className="cursor-pointer">Home</li>
+                            <li className="cursor-pointer">About</li>
+                            <li className="cursor-pointer">Contack</li>
                         </ul>
                         </div>
                     </div>
