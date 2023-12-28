@@ -22,7 +22,7 @@ const Card = () => {
   return (
         <div className='flex justify-center items-center'>
                 <div
-                className="mt-20 max-w-2xl mx-4 sm:max-w-sm md:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto md:mx-auto lg:mx-auto xl:mx-auto bg-white shadow-xl rounded-lg text-gray-900">
+                className="mt-20 max-w-2xl mx-4 sm:max-w-sm tablet:max-w-sm lg:max-w-sm xl:max-w-sm sm:mx-auto tablet:mx-auto lg:mx-auto xl:mx-auto bg-white shadow-xl rounded-lg text-gray-900">
                 <div className="rounded-t-lg h-32 overflow-hidden">
                     <img className="object-cover object-top w-full bg-bottom " id='blur' src={adat} alt='Mountain'/>
                 </div>

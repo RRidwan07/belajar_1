@@ -1,5 +1,14 @@
 /* Import Google font - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+.transition-transform {
+  transition-property: transform;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+
 /* * {
   margin: 0;
   padding: 0;
